@@ -9,6 +9,11 @@ const baloo = new Dragon({
     birthdate: new Date()
 });
 
+const mimar = new Dragon();
+const gooby = new Dragon();
+
 
 console.log('fooey', fooey);
 console.log('baloo', baloo);
+console.log('mimar', mimar);
+console.log('gooby', gooby);

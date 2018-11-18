@@ -9,6 +9,7 @@ const baloo = new Dragon({
     birthdate: new Date()
 });
 
+// Time delays
 setTimeout(()=>{
     const mimar = new Dragon();
     console.log('mimar', mimar);

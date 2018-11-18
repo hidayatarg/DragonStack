@@ -1,7 +1,9 @@
 // Screammers
 const DEFAULT_PROPERTIES = {
     nickname: 'unnamed',
-    birthdate: new Date()
+    get birthdate(){
+        return new Date()
+    }
 }
 
 class Dragon{

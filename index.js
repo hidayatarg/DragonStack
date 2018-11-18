@@ -9,11 +9,15 @@ const baloo = new Dragon({
     birthdate: new Date()
 });
 
-const mimar = new Dragon();
+setTimeout(()=>{
+    const mimar = new Dragon();
+    console.log('mimar', mimar);
+
+},3000)
+
 const gooby = new Dragon();
 
 
 console.log('fooey', fooey);
 console.log('baloo', baloo);
-console.log('mimar', mimar);
 console.log('gooby', gooby);
